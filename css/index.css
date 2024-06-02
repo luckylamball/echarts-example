@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+
+div .container {
+  padding: 0 10px;
+}
+
+div.options, div.charts {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+div .container .options div {
+  display: inline-block;
+  height: 40px;
+  align-content: center;
+}
+
+div .charts {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 1em;
+  justify-content: center;
+}
+
+div .charts>div {
+  width: calc(50% - 1em);
+  height: 500px;
+  min-width: 300px;
+  min-height: 400px;
+}
+
+#chart1 {
+  border: 1px dashed red;
+}
+#chart2 {
+  border: 1px dashed blue;
+}
+#chart3 {
+  border: 1px dashed green;
+}
+#chart4 {
+  border: 1px dashed pink;
+}
